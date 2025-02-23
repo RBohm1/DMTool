@@ -5,9 +5,7 @@ De **DM Tool** is een applicatie ontworpen om Dungeon Masters (DM's) te onderste
 
 ## Functionaliteiten
 - **Personagebeheer**: Maak, bewerk en verwijder personages zoals NPC's, monsters en spelerspersonages.
-- **Inventory Manager**: Houd de inventaris van personages en andere entiteiten bij.
 - **Item Manager**: Voeg items toe, bewerk bestaande items en verwijder items uit de database.
-- **Verhaalbeheer**: Organiseer verhaalelementen en notities voor campagnes.
 
 ## Technologieën en frameworks
 De DM Tool is ontwikkeld met behulp van de volgende technologieën:
@@ -25,11 +23,13 @@ De DM Tool is ontwikkeld met behulp van de volgende technologieën:
 - **PT Serif**: Gebruikte fontstijl voor een klassieke en overzichtelijke uitstraling.
 - **Coffee / Cream kleurenpalet**: Warm en uitnodigend ontwerp voor een "homey" gevoel.
 
-## Installatie en gebruik
-1. **Download en installeer Java (JDK 17 of hoger).**
+## Installatie en gebruik lokaal
+1. **Download en installeer Java (JDK 21).**
 2. **Clone of download dit project.**
 3. **Open het project in een IDE zoals IntelliJ IDEA of Eclipse.**
-4. **Voer het project uit door de `DMToolMain` class te starten.**
+4. **Start XAMPP/MAMP. Ga naar [PHPMyAdmin](http://localhost:8888/phpMyAdmin5/index.php)**
+5. **Import de database file naar PHPMyAdmin**
+6. **Voer het project uit door te gaan DMTool/out/artifacts/DMTool_jar**
 
 ## Toekomstige uitbreidingen
 In toekomstige versies kunnen extra functionaliteiten worden toegevoegd, zoals:
