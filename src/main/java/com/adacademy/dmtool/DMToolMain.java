@@ -54,7 +54,7 @@ public class DMToolMain extends Application {
         mainLayout.setStyle("-fx-background-color: #FFF5E1;");
 
         // Scene instellen
-        Scene scene = new Scene(mainLayout, 600, 400);
+        Scene scene = new Scene(mainLayout, 800, 400);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
